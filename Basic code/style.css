@@ -1,0 +1,137 @@
+@font-face {
+    font-family: chutki;
+    src: url(./BackToBlackBoldDemo-gG43.ttf);
+}
+@font-face {
+    font-family: gudia;
+    src: url(./NightmareStory-BWV8V.ttf);
+}
+@font-face {
+    font-family: sinu;
+    src: url(./Ndot-55.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+/* h1{
+    color: brown;
+    background-color: lightpink;
+    font-size: 40px;
+    font-family:sinu ;
+    font-weight: 50px;
+    font-style: italic;
+    text-align: left;
+    text-transform:uppercase;
+} */
+/* #code{
+    color: blue;
+}
+#love{
+    color: rgb(6, 129, 80);
+}
+
+.lnct{
+    color: rgb(240, 111, 6);
+} */
+/* #outer{
+    height: 200px;
+    width: 200px;
+    background-color:lightblue;
+}
+
+#box1{
+    height: 200px;
+    width: 200px;
+     background: radial-gradient(yellow , orange , red); 
+    background: conic-gradient(violet,indigo,blue,green,yellow,orange,red,violet);
+    
+}
+#inner{
+    height: 50%;
+    width: 50%;
+    background-color:lightseagreen;
+} */
+/* #parent{
+    height: 100%;
+    width: 100%;
+    background-color: black; 
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+} */
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color:lightblue;
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color:lightseagreen
+}
+/* #main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+} */
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(40, 38, 38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+h4{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+#center{
+    height: 80%;
+    width: 100%;
+    background-image: url(https://www.apple.com/newsroom/images/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/article/Apple-iPhone-17-Pro-camera-close-up-250909_big.jpg.large_2x.jpg);
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    padding: 50px;
+}
+#center h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;    
+}
+#center h5{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+#links button{
+    background-color: royalblue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+}

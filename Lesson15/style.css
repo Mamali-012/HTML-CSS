@@ -34,5 +34,97 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;  
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 3px solid white;
+    flex-shrink:0;
+}
+#child2{
+    height: 200px;
+    width: 200px;
+    background-color: lightseagreen;
+    border: 3px solid white;
+    flex-shrink:0;
+}
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    border: 3px solid white;
+     flex-shrink:0;
+}
+#child4{
+    height: 200px;
+    width: 200px;
+    background-color: tan;
+    border: 3px solid white;
+     flex-shrink:0;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card{
+    height:250px;
+    width: 200px;
+    background-color: white;
+    border-radius:10px;
+    box-shadow:5px 5px 20px rgba(0, 0, 0, 0.627);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.card img{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.card h2{
+    font-size:20px;
+    font-weight: 600;
+}
+.card p{
+    font-size: 15px;
+    font-weight:600;
+    color: #888;
+    text-align: center;
+}
+.card button{
+    border-radius: 50px;
+    padding:5px 20px;
+    background-color:rgb(12, 206, 232);
+    border: none;
+    color: white;
+    font-weight:600 ;
+    border: 3px solid rgb(12, 206, 232);
+    cursor: pointer;
+}
+.card button:hover{
+    background-color:transparent;
+    color: rgb(12, 206, 232);
+
+
 
 }
+

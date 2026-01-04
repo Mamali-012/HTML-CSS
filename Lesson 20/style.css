@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.blue {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.red {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+main section {
+  height: 100%;
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+main section:hover {
+  flex-grow: 3;
+}
+main section:nth-child(1) {
+  background-image: url(./santaclaus.jpg);
+}
+main section:nth-child(2) {
+  background-image: url(./Nature.jpg);
+}
+main section:nth-child(3) {
+  background-image: url(./CAT.jpg);
+}
+main section:nth-child(4) {
+  background-image: url(./Flower.jpg);
+}
+main section:nth-child(5) {
+  background-image: url(./Mountain.jpg);
+}/*# sourceMappingURL=style.css.map */
